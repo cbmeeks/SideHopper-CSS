@@ -49,7 +49,7 @@
 }
 
 #header div#user-info li a:hover {
-	text-decoration: underline;
+	color: #CCC;
 }
 
 /* Toolbar */
@@ -96,10 +96,24 @@ ul#toolbar li a.selected {
 
 ul#toolbar ul#toolbar-right {
 	position: absolute;
-	right: 0;
+	right: 10px;
 }
 
 ul#toolbar ul#toolbar-right li {
 	display: inline;
+}
+
+ul#toolbar ul#toolbar-right li input[type="text"] {
+	background: #222;
+	border: 1px solid #747474;
+	color: #FFF;
+	height: 22px;
+	margin: 6px;
+	padding: 0 18px 0 2px;
+	width: 10em;
+	
+	background-image:url('search.png');
+	background-repeat: no-repeat;
+	background-position: center right;
 }
 
