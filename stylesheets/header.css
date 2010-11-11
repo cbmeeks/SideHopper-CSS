@@ -106,7 +106,7 @@ ul#toolbar ul#toolbar-right li {
 ul#toolbar ul#toolbar-right li input[type="text"] {
 	background: #222;
 	border: 1px solid #747474;
-	color: #FFF;
+	color: #FFEB1F;
 	height: 22px;
 	margin: 6px;
 	padding: 0 18px 0 2px;
@@ -118,17 +118,20 @@ ul#toolbar ul#toolbar-right li input[type="text"] {
 }
 
 
-ul#dropdown-items {
+ul.menu-items {
 	background: #333;
+	position: absolute;
+	left: 0px;
+	top: 68px;
 	width: 240px;
 	
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4C4A4A', endColorstr='#222'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#4C4A4A), to(#222)); /* for webkit browsers */
 	background: -moz-linear-gradient(top,  #4C4A4A,  #222); /* for firefox 3.6+ */
-
+	z-index: 9999;
 }
 
-ul#dropdown-items li a {
+ul.menu-items li a {
 	color: #FFF;
 	display: block;
 	line-height: 2.4em;
@@ -136,14 +139,14 @@ ul#dropdown-items li a {
 	text-decoration: none;
 }
 
-ul#dropdown-items li a:hover {
+ul.menu-items li a:hover {
 	background: #AE0606;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3180A', endColorstr='#85130B'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#E3180A), to(#85130B)); /* for webkit browsers */
 	background: -moz-linear-gradient(top,  #E3180A,  #85130B); /* for firefox 3.6+ */
 }
 
-ul#dropdown-items li a:active {
+ul.menu-items li a:active {
 	background: #CD2915;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F12D16', endColorstr='#BC2311'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#F12D16), to(#BC2311)); /* for webkit browsers */

@@ -5,6 +5,7 @@
 		<title>index</title>
 		<link rel="stylesheet" href="stylesheets/base.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="stylesheets/header.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/content.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	</head>
 	<body>
 
@@ -20,11 +21,11 @@
 			<a id="logo" href="#">SideHopper-CSS</a>
 			
 			<ul id="toolbar">
-				<li><a class="dropdown" href="#">Person &nbsp;<span class="arrow">▼</span></a></li>
+				<li><a class="dropdown" data-menu="people" href="#">Person &nbsp;<span class="arrow">▼</span></a></li>
 				<li><a class="selected" href="#">Dashboard</a></li>
 				<li><a href="#">Assignments</a></li>
 				<li><a href="#">Contacts</a></li>
-				<li><a href="#">Pages</a></li>
+				<li><a class="dropdown" data-menu="pages" href="#">Pages &nbsp;<span class="arrow">▼</span></a></li>
 				
 				<li>
 					<ul id="toolbar-right">
@@ -38,12 +39,26 @@
 				</li>
 			</ul>
 		</div>
+		
+		<div id="content">
+			<h1>This is content</h1>
+		</div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<ul id="dropdown-items">
+
+		<ul id="people" class="menu-items" style="display:none;">
 			<li><a href="#">Moe Howard</a></li>
 			<li><a href="#">Larry Fine</a></li>
 			<li><a href="#">Shemp Howard</a></li>
+			<li><a href="#">Curly Howard</a></li>
+			<li><a href="#">Curly Joe Besser</a></li>
+			<li><a href="#">Emil Sitka</a></li>
+			<li><a href="#">Bud Jameson</a></li>
+		</ul>
+
+		<ul id="pages" class="menu-items" style="display:none;">
+			<li><a href="#">Budget Spreadsheet</a></li>
+			<li><a href="#">P&L Statement</a></li>
+			<li><a href="#">Master Contact List</a></li>
 		</ul>
 
 

@@ -76,9 +76,13 @@ html[xmlns] .clearfix {
 
 /* Tweaks */
 body {
+	background: #EEE;
 	font-family: Tahoma, Geneva, sans-serif;;
 }
 
+h1 {
+	font-size: 1.6em;
+}
 .arrow {
 	font-size: 0.5em;
 }
