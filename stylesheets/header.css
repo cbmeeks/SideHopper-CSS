@@ -1,8 +1,8 @@
 #header {
-	background: #FFF;
+	background: #333;
 	bottom: auto;
 	display: block;
-	height: 64px;
+	height: 70px;
 	left: 0px;
 	margin: 0px;
 	position: absolute;
@@ -14,10 +14,10 @@
 }
 
 #header a#logo {
-	color: #333;
+	color: #FFF;
 	display: block;
-	font-size: 1.3em;
-	padding: 0 0 0 20px;
+	font-size: 1.2em;
+	padding: 4px 0 0 20px;
 	text-decoration: none;
 }
 
@@ -27,7 +27,7 @@
 }
 
 #header div#user-info span.username {
-	color: #333;
+	color: #CCC;
 	float: right;
 	padding: 0 20px 0 0;
 }
@@ -42,7 +42,7 @@
 }
 
 #header div#user-info li a {
-	color: #555;
+	color: #AAA;
 	font-size: 0.8em;
 	padding: 0 8px 0 0;
 	text-decoration: none;
@@ -85,8 +85,4 @@ ul#toolbar li a:hover {
 
 ul#toolbar li a.selected {
 	background: #CD2915;
-}
-
-.arrow {
-	font-size: 0.5em;
 }
