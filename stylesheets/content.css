@@ -1,9 +1,6 @@
 #content {
 	background: #FFF;
-	min-height: 85%;
-	position: absolute;
-	left: 0;
-	top: 70px;
+	position: relative;
 	width: 100%;
 }
 
