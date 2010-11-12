@@ -14,18 +14,26 @@
 	color: #FFF;
 	display: inline-block;
 	font-size: 1.2em;
-	padding: 4px 20px 10px 20px;
+	padding: 6px 20px 8px 20px;
 	text-decoration: none;
 }
 
 #header p {
 	color: #5ACF2A;
 	display: inline;
+	height: 20px;
+	position: absolute;
+	top: 8px;
 }
 
 #header div#user-info {
+	display: inline;
 	float: right;
+	height: 18px;
 	padding: 4px;
+	position: absolute;
+	right: 0;
+	top: 4px;
 }
 
 #header div#user-info span.username {
@@ -35,8 +43,9 @@
 }
 
 #header div#user-info ul {
-	list-style-type: none;
+	display: inline;
 	float: right;
+	list-style-type: none;
 }
 
 #header div#user-info li {
@@ -61,15 +70,19 @@ ul#toolbar {
 	float: left;
 	font-size: 1.0em;
 	height: 38px;
+	left: 0;
 	line-height: 1.2em;
 	list-style-type: none;
-	position: absolute;
 	overflow: hidden;
 	width: 100%;
 
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4C4A4A', endColorstr='#222'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#4C4A4A), to(#222)); /* for webkit browsers */
 	background: -moz-linear-gradient(top,  #4C4A4A,  #222); /* for firefox 3.6+ */
+}
+
+ul#toolbar li {
+	display: inline;
 }
 
 ul#toolbar li a {
