@@ -87,3 +87,13 @@
 #content .body table tr:hover {
 	background: #ECF5FF;
 }
+
+/* Links */
+#content a {
+	color: #3455CC;
+	text-decoration: none;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
