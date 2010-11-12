@@ -16,7 +16,6 @@ $(document).ready(function() {
 		var toolbar = $(self).parent().parent();	// climb up tree to toolbar parent
 		var left = $(toolbar).position().left + $(self).position().left;
 
-
 		hideMenu(); // clear any previous menu hover states
 
 		menu = $("#" + self.getAttribute("data-menu"));

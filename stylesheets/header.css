@@ -15,10 +15,15 @@
 
 #header a#logo {
 	color: #FFF;
-	display: block;
+	display: inline-block;
 	font-size: 1.2em;
-	padding: 4px 0 0 20px;
+	padding: 4px 20px 10px 20px;
 	text-decoration: none;
+}
+
+#header p {
+	color: #5ACF2A;
+	display: inline;
 }
 
 #header div#user-info {
