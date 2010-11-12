@@ -30,3 +30,28 @@
 	font-size: 1.2em;
 	padding: 10px 10px 10px 0;
 }
+
+#content .body p {
+	margin: 10px 20px 20px 20px;
+}
+
+#content .body table {
+	margin: auto;
+	width: 70%;
+}
+
+#content .body table th {
+	background: #FFF;
+	border-bottom: 2px solid #333;
+	padding: 0 0 10px 0;
+	text-align: left;
+}
+
+#content .body table td {
+	border-bottom: 1px solid #E2E2E2;
+	padding: 10px 0 10px 0;
+}
+
+#content .body table tr:hover {
+	background: #ECF5FF;
+}
