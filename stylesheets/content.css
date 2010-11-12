@@ -14,6 +14,11 @@
 	min-height: 28px;
 	padding: 0;
 	width: 100%;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3E3E3', endColorstr='#C6C6C6'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#E3E3E3), to(#C6C6C6)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #E3E3E3,  #C6C6C6); /* for firefox 3.6+ */
+
 }
 
 #content .header h1 {
