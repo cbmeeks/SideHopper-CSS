@@ -1,3 +1,5 @@
+/* SideHopper-CSS by cbmeeks@gmail.com */
+
 #content {
 	background: #FFF;
 	position: relative;
@@ -95,6 +97,7 @@
 	margin: 10px 20px 20px 20px;
 }
 
+/* Tables */
 #content .body table {
 	margin: auto;
 	width: 70%;
@@ -107,10 +110,20 @@
 	text-align: left;
 }
 
+#content .body table th.right, #content .body table td.right {
+	padding-right: 20px;
+	text-align: right;
+}
+
 #content .body table td {
 	border-bottom: 1px solid #E2E2E2;
 	padding: 10px 0 10px 0;
 }
+
+#content .body table td.bold {
+	font-weight: bold;
+}
+
 
 #content .body table tr:hover {
 	background: #ECF5FF;
