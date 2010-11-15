@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>index</title>
+		<link rel="stylesheet" href="stylesheets/base.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/header.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/content.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="stylesheets/footer.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	</head>
+	<body>
+
+		<div id="header" class="clearfix">
+			<div id="user-info">
+				<ul>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Our Friends</a></li>
+					<li><a href="#">Log Out</a></li>
+				</ul>
+				<span class="username">cbmeeks</span>
+			</div>
+			
+			<a id="logo" href="#">SideHopper-CSS</a>
+			<p>Energy Tanks</p>
+			
+			<ul id="toolbar">
+				<li><a class="dropdown" data-menu="people" href="#">Person &nbsp;<span class="arrow">▼</span></a></li>
+				<li><a class="selected" href="#">Dashboard</a></li>
+				<li><a href="#">Assignments</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a class="dropdown" data-menu="pages" href="#">Pages &nbsp;<span class="arrow">▼</span></a></li>
+				
+				<li>
+					<ul id="toolbar-right">
+						<li><a href="#">Members</a></li>
+						<li><a href="#">Another One</a></li>
+						<li><a href="#">Last One</a></li>
+						<li>
+							<input type="text" id="search" placeholder="Search..." />
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="content">
+			<div class="header">
+				<h1>Content Header</h1>
+			</div>
+			<div class="body">
+				<h1>Form Test</h1>
+
+				<form action="#" method="GET">
+					<label for="name" class="required">Name:</label>
+					<input type="text" id="name" />
+
+					<label for="name">Address:</label>
+					<input type="text" id="address" />
+
+					<label for="notes">Notes:</label>
+					<textarea id="notes"></textarea>
+				</form>
+
+				<form action="#" method="GET" class="spaced">
+					<label for="name" class="required">Name (wide):</label>
+					<input type="text" id="name" class="wide" />
+
+					<label for="name">Address:</label>
+					<input type="text" id="address" class="wide" />
+
+					<label for="notes">Notes:</label>
+					<textarea id="notes" class="wide"></textarea>
+				</form>
+				
+			</div>
+		</div>
+		
+		<div id="footer">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">Feedback</a></li>
+			</ul>
+		</div>
+
+
+		<ul id="people" class="menu-items" style="display:none;">
+			<li>
+				<a href="#">Moe Howard</a>
+				<span class="menu-desc">The leader of the Stooges</span>
+			</li>
+			<li><a href="#">Larry Fine</a></li>
+			<li><a href="#">Shemp Howard</a></li>
+			<li><a href="#">Curly Howard</a></li>
+			<li>
+				<a href="#">Curly Joe Besser</a>
+				<span class="menu-desc">Not well received</span>
+			</li>
+			<li><a href="#">Emil Sitka</a></li>
+			<li><a href="#">Bud Jameson</a></li>
+		</ul>
+
+		<ul id="pages" class="menu-items" style="display:none;">
+			<li><a href="#">Budget Spreadsheet</a></li>
+			<li>
+				<a href="#">P&L Statement</a>
+				<span class="menu-desc">We making money yet?</span>
+			</li>
+			<li><a href="#">Master Contact List</a></li>
+		</ul>
+
+
+
+		<script type="text/javascript" charset="utf-8" src="javascripts/jquery-1.4.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="javascripts/application.js"></script>
+	</body>
+</html>

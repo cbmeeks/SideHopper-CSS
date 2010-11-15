@@ -4,6 +4,7 @@
 	width: 100%;
 }
 
+/* Header */
 #content .header {
 	background: #E3E3E3;
 	display: block;
@@ -21,6 +22,33 @@
 #content .header h1 {
 	font-size: 1.4em;
 	padding: 10px 0 10px 10px;
+}
+
+#content .header .right {
+	padding: 10px 0 0 0;
+	position: absolute;
+	float: right;
+	right: 0;
+	top: 0;
+}
+
+#content .header ul {
+	display: inline;
+	list-style-type: none;
+}
+
+#content .header li {
+	display: inline;
+	padding: 0 20px 0 0;
+}
+
+#content .header li a {
+	color: #333;
+	font-size: 0.8em;
+}
+
+#content .header li a:hover {
+	color: #666;
 }
 
 /* Body */
@@ -97,3 +125,36 @@
 #content a:hover {
 	text-decoration: underline;
 }
+
+
+/* Forms and Labels */
+#content .body form.spaced {
+	padding: 20px;
+}
+
+#content .body .required {
+	font-weight: bold;
+}
+
+#content .body label {
+	display: block;
+}
+
+#content .body input[type="text"] {
+	width: 25em;
+}
+
+#content .body textarea {
+	height: 5em;
+	width: 25em;
+}
+
+#content .body input[type="text"].wide {
+	width: 45em;
+}
+
+#content .body textarea.wide {
+	height: 8em;
+	width: 45em;
+}
+
