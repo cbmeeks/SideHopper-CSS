@@ -171,3 +171,21 @@
 	width: 45em;
 }
 
+/* Messages */
+#content .notice {
+	background: #4BA515;
+	color: #FFF;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	text-align: center;
+	width: 80%;
+}
+
+#content .alert {
+	background: #B60F11;
+	color: #FFF;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	text-align: center;
+	width: 80%;
+}
